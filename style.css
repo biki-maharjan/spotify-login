@@ -8,6 +8,7 @@ html,body{
     width: 100%;
 }
 #container{
+    height: 850px;
     width: 100%;
     background: linear-gradient(rgb(55, 55, 55) 0%, rgb(0, 0, 0) 100%);
     display: flex;
@@ -62,3 +63,123 @@ margin-top: 5%;
     margin-left: 18%;
     
 }
+
+#login-info{
+    margin-left: 30%;
+    color: #fff;
+}
+.login-input input{
+    padding: 12px 70px;
+    background-color: #121212;
+    margin: 10px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e3e3e35f;&:hover{
+        border: 1px solid #fff;
+        text-align: start;
+    }
+}
+.login-button{
+    margin-left: 5%;
+    
+}
+.login-button button{
+    padding: 12px 100px;
+    background-color: #1ed760;
+    border: transparent;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 600;
+    border-radius: 50px;&:hover{
+        background-color: #2ee06d;
+        transform: scale(1.02);
+    }
+}
+
+.forget{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.forget a{
+    color: #fff;&:hover{
+        color: #1ed760;
+    }
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+}
+.signup p{
+    color: #b3b3b3;
+}
+.signup a{
+    color: #fff;
+    &:hover{
+        color: #1ed760;
+    }
+}
+
+.footer{
+    height: 70px;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.footer a{
+    color: #b3b3b3;
+}
+
+@media(max-width:600px){
+    html,body{
+        /* height: 400px; */
+        width: 600px;
+    }
+   #container{
+    height: 1150px;
+    width: 650px;
+   }
+   .box{
+    width: 450px;
+    height:800px ;
+    background-color: #121212;
+    margin-top: 25%;
+    border-radius: 10px;
+
+}
+.logo{
+    margin-top:10%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-top: 20px;
+}
+.line{
+    border-bottom: 1px solid #8888883a;
+    width: 300px;
+    margin:40px;
+    margin-left: 18%;
+    
+}
+#login-info{
+    margin-left: 12%;
+    color: #fff;
+}
+.login-button{
+    margin-left: 12%;
+    
+}
+.footer{
+    width: 650px;
+}
+
+}
+
+    
